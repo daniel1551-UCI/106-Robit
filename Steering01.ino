@@ -5,8 +5,8 @@
 
 const int SERVO_PIN = 3;
 const int SERVO_CENTER = 90;
-const int SERVO_MIN = 60;
-const int SERVO_MAX = 120;
+const int SERVO_MIN = 70;
+const int SERVO_MAX = 110;
 
 float Kp_heading = 0.8;
 
