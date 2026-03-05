@@ -14,8 +14,8 @@ LIS3MDL mag;
 LSM6 imu;
 
 // Use your Lab 3 calibration values as a starting point
-LIS3MDL::vector<int16_t> m_min = { -4960,  +1959,  -5915};
-LIS3MDL::vector<int16_t> m_max = { -2644,  +4165,  -3989};
+LIS3MDL::vector<int16_t> m_min = { +1282,  +1664,   -815};
+LIS3MDL::vector<int16_t> m_max = { +2568,  +2881,   -101};
 
 Servo steer;
 float desiredHeadingDeg = 0;
